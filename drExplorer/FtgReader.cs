@@ -25,7 +25,6 @@ namespace drExplorer
             var directoryOffset = BitConverter.ToInt32(ftgBinaryReader.ReadBytes(4), 0);
             var fileCount = BitConverter.ToInt32(ftgBinaryReader.ReadBytes(4), 0);
 
-            var result = new List<drFileInfo>();
             ftgBinaryReader.BaseStream.Seek(directoryOffset, SeekOrigin.Begin);
             for (int i = 0; i < fileCount; i++)
             {
