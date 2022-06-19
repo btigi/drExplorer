@@ -1,3 +1,7 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/oavl3y8do8os905n?svg=true)](https://ci.appveyor.com/project/igi/drExplorer)
+
+---
+
 # drExplorer
 
 A GUI application to allow viewing and extract of the content of FTG files, as used by Dark Reign.
